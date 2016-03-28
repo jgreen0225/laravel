@@ -8,7 +8,7 @@ class PagesController extends Controller {
             $people = [
                 'Taylor Otwell', 'Daylee Rees', 'Eric Barnes'
             ];
-            return view('pages.about', compact('people'))
+            return view('pages.about', compact('people'));
         }
     public function contact(){
         return view('pages.contact');

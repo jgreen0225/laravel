@@ -5,9 +5,9 @@ class PagesController extends Controller {
 
     public function about()
         {
-            $people = [
-                'Taylor Otwell', 'Daylee Rees', 'Eric Barnes'
-            ];
+            //$people = [
+            //    'Taylor Otwell', 'Daylee Rees', 'Eric Barnes'
+            //];
             return view('pages.about', compact('people'));
         }
     public function contact(){

@@ -5,6 +5,10 @@ class WelcomeController extends Controller {
     {
         return view('welcome');
     }
+    public function index()
+    {
+        return ('Contact me!');
+    }
 
 }
 /**

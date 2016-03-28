@@ -5,7 +5,8 @@ class PagesController extends Controller {
 
     public function about()
         {
-            //$people = [
+            $people = [];
+            //$people = []
             //    'Taylor Otwell', 'Daylee Rees', 'Eric Barnes'
             //];
             return view('pages.about', compact('people'));

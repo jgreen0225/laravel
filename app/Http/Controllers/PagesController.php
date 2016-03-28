@@ -10,4 +10,7 @@ class PagesController extends Controller {
             $data['last']='Quaid';
             return view('pages.about', $data);
         }
+    public function contact(){
+        return view('pages.contact');
+    }
 }

@@ -4,7 +4,7 @@ use...
 
 class PagesController extends Controller {
 
-    public funtion about()
+    public function about()
         {
             return view('pages.about');
         }
